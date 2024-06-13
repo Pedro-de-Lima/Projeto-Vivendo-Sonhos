@@ -5,7 +5,7 @@ export default function MenuPrincipal() {
             <nav className='navbar'>
                 <img></img>
                 <div className='item'>
-                    <a href="">Home</a>
+                    <a href="#carrossel">Home</a>
                     <a href="">Projetos</a>
                     <a href="">Diretoria</a>
                     <a href="">Insentive</a>
