@@ -28,7 +28,7 @@ a{
   border: none;
 }
 
-.Home{
+.Home {
   display: flex;
   justify-content: space-between;
   height: 90vh;
@@ -97,4 +97,44 @@ a{
   margin-top: 90px;
   border: 2px solid white;
   border-radius: 10px;
+}
+
+.Projeto{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.info{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  background-color: #103C8F;
+  font-family:"Public Sans", sans-serif;
+}
+
+.whats{
+  display: flex;
+  align-items: center;
+  background-color: #F5DAE2;
+  font-size: 24px;
+  height: 5rem;
+  width: 350px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.InfoDiv{
+  background-color: #F5DAE2;
+}
+
+.InfoDiv > p{
+  font-size: 35px;
+}
+
+.Quadrado > p{
+  display: flex;
+  justify-content: center;
+  color:aliceblue
 }
