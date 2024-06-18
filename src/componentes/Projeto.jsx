@@ -9,9 +9,8 @@ export default function Projeto() {
                     </div>
                     <div className="InfoDiv">
                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png" alt="" />
-                        <p>Adolecencia e Tecnologia</p>
+                        <p>Adolecencia e <br></br>Tecnologia</p>
                     </div>
-                    <div className="whats">Whatsapp</div>
                 </div>
                 <div className="Quadrado">
                     <p>texto sobre os projetos</p>

@@ -2,7 +2,7 @@ export default function ItemCarrossel({cargo, texto}) {
 
     return(
         <>
-            <div style={{width: '70%', height:'75vh', backgroundColor:'white', display: 'flex'}}>
+            <div style={{width: '70%', height:'75vh', backgroundColor:'white', display: 'flex', margin: 'auto'}}>
                 <div className="imagem" style={{width:'50%', display: 'flex', justifyContent: 'center', alignItems:'center', backgroundColor: 'blue'}}>
                     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"></img>
                 </div>
