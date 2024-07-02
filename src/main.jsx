@@ -5,6 +5,7 @@ import MenuPrincipal from './componentes/MenuPrincipal.jsx'
 import Home from './componentes/Home.jsx'
 import Carrossel from './componentes/Carrossel.jsx'
 import Projeto from './componentes/Projeto.jsx'
+import Parceiros from './componentes/Parceiros.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Home/>
     <Carrossel/>
     <Projeto/>
+    <Parceiros/>
   </React.StrictMode>,
 )
