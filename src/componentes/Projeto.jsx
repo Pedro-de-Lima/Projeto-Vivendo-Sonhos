@@ -1,14 +1,19 @@
 export default function Projeto() {
+
+    const img = {
+        borderRadius:'10px'
+    }
+
     return(
         <>
             <div className="Projeto">
                 <div className="info">
                     <div className="InfoDiv">
-                        <img src="https://dummyimage.com/300x300/000/fff" alt="" />
+                        <img src="https://dummyimage.com/300x300/000/fff" alt=""/>
                         <p>6-14 ANOS</p>
                     </div>
                     <div className="InfoDiv">
-                        <img src="https://dummyimage.com/300x300/000/fff" alt="" />
+                        <img src="https://dummyimage.com/300x300/000/fff" alt=""/>
                         <p>Adolecencia e <br></br>Tecnologia</p>
                     </div>
                 </div>

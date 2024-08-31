@@ -131,6 +131,7 @@ a{
 
 .InfoDiv{
   background-color: #F5DAE2;
+  border-radius: 15px;
 }
 
 .InfoDiv > p{
