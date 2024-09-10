@@ -1,3 +1,5 @@
+import '../css/Projeto.css'
+
 export default function Projeto() {
 
     const img = {

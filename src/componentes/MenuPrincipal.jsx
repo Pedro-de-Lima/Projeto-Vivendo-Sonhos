@@ -1,4 +1,4 @@
-
+import '../css/MenuPrincipal.css'
 export default function MenuPrincipal() {
     return(
         <>

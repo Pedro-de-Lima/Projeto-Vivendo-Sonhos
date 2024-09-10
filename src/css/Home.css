@@ -1,0 +1,74 @@
+.Home{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.Texto{
+    width: 50%;
+    padding-top: 30px;
+    font-family:"Public Sans", sans-serif;
+}
+
+.Texto h1{
+    font-size: 60px ;
+    color: #1650BF;
+    padding-left: 15px;
+}
+
+.Texto h2{
+    font-size: 75px;
+    margin-left: 50px;
+    color: #061634;
+    padding-left: 15px;
+}
+
+.Texto p {
+    font-size: 20px;
+    padding-left: 15px;
+    color: #061634;
+}
+
+.Texto div{
+    display: flex;
+    align-items: center;
+    background-color: #F5DAE2;
+    font-size: 24px;
+    height: 5rem;
+    width: 350px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.Quadrado{
+    width: 30%;
+    background-color: #103C8F;
+    border-radius: 200px 0px 0px 0px;
+    border-left: 50px solid #1650BF;
+    border-top: 50px solid #1650BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Janela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 650px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #1650BF;
+    position: absolute;
+    margin-top: 55px;
+    right: 100px;
+}
+
+.Logo{
+    width: 650px;
+    height: 450px;
+    margin-top: 90px;
+    border: 2px solid white;
+    border-radius: 10px;
+} 

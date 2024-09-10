@@ -7,6 +7,7 @@ import Conselho2 from '../assets/Conselho_Fiscal2.jpeg'
 import Coodernador from '../assets/Coodernador.jpeg'
 import Secretaria from '../assets/Secretaria.jpeg'
 import Tesoureira from '../assets/Tesoureira.jpeg'
+import '../css/Carrossel.css'
 
 export default function Carrossel() {
     return(

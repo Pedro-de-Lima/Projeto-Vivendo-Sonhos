@@ -1,0 +1,32 @@
+.Projeto{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .info{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    background-color: #103C8F;
+    font-family:"Public Sans", sans-serif;
+  }
+  
+  .InfoDiv{
+    background-color: #F5DAE2;
+    border-radius: 15px;
+  }
+  
+  .InfoDiv > p{
+    font-size: 35px;
+  }
+  
+  .Quadrado p{
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    width: 75%;
+    text-align: justify;
+  }
