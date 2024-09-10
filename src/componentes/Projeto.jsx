@@ -2,10 +2,6 @@ import '../css/Projeto.css'
 
 export default function Projeto() {
 
-    const img = {
-        borderRadius:'10px'
-    }
-
     return(
         <>
             <div className="Projeto">

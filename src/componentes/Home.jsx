@@ -1,5 +1,7 @@
 import '../css/Home.css'
 
+import iconWhatsapp from '../assets/whatsapp.png'
+
 export default function Home() {
     return(
         <>
@@ -8,7 +10,7 @@ export default function Home() {
                     <h1>Bem-vindo ao</h1>
                     <h2>INSTITUTO <br></br>VIVENDO<br></br>SONHOS</h2>
                     <p>BREVE TEXTO SOBRE A INTITUIÇÃO</p>
-                    <div>WhatsApp</div>
+                    <a href='https://api.whatsapp.com/send?phone=5519982836007'>WhatsApp<img src={iconWhatsapp} alt="whatsapp" /></a>
                 </div>
                 <div className="Quadrado">
                     <div className="Janela">

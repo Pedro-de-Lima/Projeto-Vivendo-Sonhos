@@ -12,7 +12,7 @@ import '../css/Carrossel.css'
 export default function Carrossel() {
     return(
         <>
-            <Carousel id='carrossel' style={{width:'100%', height:'100vh',backgroundColor:'#103C8F', display:'flex', alignItems:'center', justifyContent: 'center'}}>
+            <Carousel id='carrossel'>
                 <Carousel.Item>
                     <ItemCarrossel cargo='Presidente' texto='Descrição do cargo'></ItemCarrossel>
                 </Carousel.Item>

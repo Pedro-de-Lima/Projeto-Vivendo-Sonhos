@@ -19,8 +19,8 @@
     border-radius: 15px;
   }
   
-  .InfoDiv > p{
-    font-size: 35px;
+  .InfoDiv  p{
+    font-size: 2rem;
   }
   
   .Quadrado p{
@@ -29,4 +29,5 @@
     color:aliceblue;
     width: 75%;
     text-align: justify;
+    font-size: 0.66rem;
   }

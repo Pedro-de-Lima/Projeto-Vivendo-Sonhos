@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import MenuPrincipal from './componentes/MenuPrincipal.jsx'
 import Home from './componentes/Home.jsx'
 import Carrossel from './componentes/Carrossel.jsx'

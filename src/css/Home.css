@@ -29,14 +29,22 @@
     color: #061634;
 }
 
-.Texto div{
+.Texto a{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #F5DAE2;
     font-size: 24px;
     height: 5rem;
     width: 350px;
+    padding: 20px;
     border-radius: 0px 50px 50px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.Texto a img{
+    height: 100%;
 }
 
 .Quadrado{
