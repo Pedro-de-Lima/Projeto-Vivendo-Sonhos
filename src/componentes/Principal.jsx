@@ -2,7 +2,7 @@ import '../css/Home.css'
 
 import iconWhatsapp from '../assets/whatsapp.png'
 
-export default function Home() {
+export default function Principal() {
     return(
         <>
             <div className="Home">
