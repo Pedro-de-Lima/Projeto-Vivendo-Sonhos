@@ -1,16 +1,17 @@
 import '../css/MenuPrincipal.css'
+import { Link } from 'react-router-dom'
 export default function MenuPrincipal() {
     return(
         <>
             <nav className='navbar'>
                 <img></img>
                 <div className='item'>
-                    <a href="#carrossel">Home</a>
-                    <a href="">Projetos</a>
-                    <a href="">Diretoria</a>
-                    <a href="">Insentive</a>
-                    <a href="">Parceiros</a>
-                    <a href="">Contato</a>
+                    <Link to="/" >Home</Link>
+                    <Link to="/projetos">Projetos</Link>
+                    <Link to="/diretoria">Diretoria</Link>
+                    <Link to="">Insentive</Link>
+                    <Link to="/parceiros">Parceiros</Link>
+                    <Link to="/contato">Contato</Link>
                 </div>
                 <div className='pesquisa'>
                     <form action="">
