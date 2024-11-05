@@ -14,7 +14,7 @@ export default function Carrossel() {
         <>
             <Carousel id='carrossel'>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='Presidente' texto='Descrição do cargo'></ItemCarrossel>
+                    <ItemCarrossel cargo='Presidente' texto='O presidente de uma organização atua como o principal executivo responsável pelo planejamento estratégico de negócios e pela visão da empresa. Ao liderar a organização, o presidente responsabiliza todas as operações comerciais perante as partes interessadas e as políticas da empresa.'></ItemCarrossel>
                 </Carousel.Item>
                 <Carousel.Item>
                     <ItemCarrossel cargo='vice-presidente' texto='Descrição do cargo'/>

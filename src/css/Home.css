@@ -1,23 +1,24 @@
 .Home{
     display: flex;
     justify-content: space-between;
-    height: 90vh;
+    height: calc(100vh - 5rem);
+
 }
 
 .Texto{
     width: 50%;
-    padding-top: 30px;
+    padding-top: 1.2rem;
     font-family:"Public Sans", sans-serif;
 }
 
 .Texto h1{
-    font-size: 60px ;
+    font-size: 3rem ;
     color: #1650BF;
     padding-left: 15px;
 }
 
 .Texto h2{
-    font-size: 75px;
+    font-size: 4rem;
     margin-left: 50px;
     color: #061634;
     padding-left: 15px;
