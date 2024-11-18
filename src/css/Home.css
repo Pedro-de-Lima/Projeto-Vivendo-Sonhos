@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .Home{
     display: flex;
     justify-content: space-between;
@@ -7,77 +9,127 @@
 
 .Texto{
     width: 50%;
-    padding-top: 1.2rem;
-    font-family:"Public Sans", sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Public Sans", sans-serif;
 }
 
 .Texto h1{
-    font-size: 3rem ;
-    color: #1650BF;
-    padding-left: 15px;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .Texto h2{
-    font-size: 4rem;
-    margin-left: 50px;
-    color: #061634;
-    padding-left: 15px;
+    font-size: 70px;
+    margin-left: 3rem;
+    font-weight: bold;
 }
 
-.Texto p {
+.Texto p{
     font-size: 20px;
-    padding-left: 15px;
-    color: #061634;
 }
 
 .Texto a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: max-content;
+    height: 3.5rem;
     background-color: #F5DAE2;
-    font-size: 24px;
-    height: 5rem;
-    width: 350px;
-    padding: 20px;
-    border-radius: 0px 50px 50px 0px;
-    text-decoration: none;
-    color: black;
+    border-radius: 50%;
+    padding: 0.5rem;
 }
 
-.Texto a img{
+.conent{
+    position: relative;
+    width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
-.Quadrado{
-    width: 30%;
-    background-color: #103C8F;
-    border-radius: 200px 0px 0px 0px;
-    border-left: 50px solid #1650BF;
-    border-top: 50px solid #1650BF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.conent .detalhe{
+    width: 75%;
+    height: 100%;
+    background-color: #103c8f;
+    border-radius: 120px 0px 0px 0px;
+    border-width: 40px 0px 0px 40px;
+    border-color: #1650bf;
+    border-style: solid;
 }
-  
-.Janela{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-    height: 650px;
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: #1650BF;
+
+.conent .janela{
     position: absolute;
-    margin-top: 55px;
+    width: 630px;
+    height: 450px;
+    background-color: #103c8f;
+    border: 2px solid #fff;
+    bottom: 40px;
     right: 100px;
+    border-radius: 10px;
 }
 
-.Logo{
-    width: 650px;
-    height: 450px;
-    margin-top: 90px;
-    border: 2px solid white;
+.detalhe_superior{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.detalhe_formas{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.detalhe_formas .circulo{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F5DAE2;
+}
+
+.detalhe_formas .quadrado{
+    width: 10px;
+    height: 10px;
+    background-color: #F5DAE2;
+}
+
+.detalhe_formas .triangulo{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #F5DAE2;
+}
+
+.detalhe_linha_branca{
+    width: 85%;
+    height: 4px;
     border-radius: 10px;
-} 
+    background-color: #fff;
+}
+
+.detalhe_retangular{
+    width: 100%;
+    height: 25px;
+    background-color: #F5DAE2;
+}
+
+.janela .logo_instituto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+
+    & img{
+        padding: 10px;
+        width: 350px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}

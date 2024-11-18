@@ -7,9 +7,9 @@ export default function MenuPrincipal() {
             <nav className='navbar'>
                 <img src={LogoInstituicao}/>
                 <div className='item'>
-                    <Link to="/" >Home</Link>
-                    <Link to="/projetos">Projetos</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/diretoria">Diretoria</Link>
+                    <Link to="/projetos">Projetos</Link>
                     <Link to="/parceiros">Parceiros</Link>
                     <Link to="/contato">Contato</Link>
                 </div>
