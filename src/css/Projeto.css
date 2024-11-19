@@ -22,12 +22,32 @@
   .InfoDiv  p{
     font-size: 2rem;
   }
-  
-  .Quadrado p{
+
+  .descricao{
     display: flex;
-    justify-content: center;
-    color:aliceblue;
-    width: 75%;
-    text-align: justify;
-    font-size: 0.66rem;
+    flex-direction: row-reverse;
+    width: 50%;
+    height: 100%;
   }
+
+  .detalhe_lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    background-color: #103c8f;
+    border-radius: 120px 0px 0px 0px;
+    border-width: 40px 0px 0px 40px;
+    border-color: #1650bf;
+    border-style: solid;
+  }
+
+  .detalhe_lateral p {
+    color: #fff;
+    width: 80%;
+    font-size: 14px;
+    text-align: justify;
+  }
+

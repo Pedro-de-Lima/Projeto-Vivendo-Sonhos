@@ -16,12 +16,17 @@
 .content .imagem{
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     & img{
-        width: 50%;
-        height: auto;
-        border: 0px solid transparent;
-        border-radius: 10px 0 0 10px;
+        width: auto;
+        height: 90%;
+        border-radius: 50% ;
+        object-fit: cover;
+        object-position: center;
+        
     }
 }
 
