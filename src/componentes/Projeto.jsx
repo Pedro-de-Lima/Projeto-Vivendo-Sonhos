@@ -8,9 +8,9 @@ export default function Projeto() {
         <div className="projeto">
             <h1>Nossos Projetos</h1>
             <div className="projeto-container">
-                <LinkProjeto></LinkProjeto>
-                <LinkProjeto></LinkProjeto>            
-                <LinkProjeto></LinkProjeto>
+                <LinkProjeto link='/qi-dos-sonhos'/>
+                <LinkProjeto link='/arte-de-cozinhar'/>
+                <LinkProjeto link='futebol'/>
             </div>
         </div>
         </>

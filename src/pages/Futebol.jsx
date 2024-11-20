@@ -1,9 +1,10 @@
 import MenuPrincipal from "../componentes/MenuPrincipal";
 
-export default function Projetos(){
+export default function Futebol(){
     return(
         <div>
-            <MenuPrincipal />
+            <MenuPrincipal/>
+            <p>futebol</p>
         </div>
     )
 }

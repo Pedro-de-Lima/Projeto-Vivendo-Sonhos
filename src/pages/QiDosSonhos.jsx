@@ -1,9 +1,10 @@
 import MenuPrincipal from "../componentes/MenuPrincipal";
 
-export default function Projetos(){
+export default function QiDosSonhos(){
     return(
         <div>
-            <MenuPrincipal />
+            <MenuPrincipal/>
+            <p>Qi dos Sonhos</p>
         </div>
     )
 }
