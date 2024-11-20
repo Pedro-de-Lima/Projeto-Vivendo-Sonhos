@@ -21,12 +21,7 @@
     align-items: center;
 
     & img{
-        width: auto;
-        height: 90%;
-        border-radius: 50% ;
-        object-fit: cover;
-        object-position: center;
-        
+        width: 100%;
     }
 }
 

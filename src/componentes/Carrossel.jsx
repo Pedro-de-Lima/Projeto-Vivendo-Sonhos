@@ -7,6 +7,7 @@ import Conselho2 from '../assets/Conselho_Fiscal2.jpeg'
 import Coodernador from '../assets/Coodernador.jpeg'
 import Secretaria from '../assets/Secretaria.jpeg'
 import Tesoureira from '../assets/Tesoureira.jpeg'
+import VicePresidente from '../assets/Vice_Presidente.jpeg'
 import '../css/Carrossel.css'
 
 export default function Carrossel() {
@@ -17,7 +18,7 @@ export default function Carrossel() {
                     <ItemCarrossel cargo='Presidente' texto='O presidente de uma organização atua como o principal executivo responsável pelo planejamento estratégico de negócios e pela visão da empresa. Ao liderar a organização, o presidente responsabiliza todas as operações comerciais perante as partes interessadas e as políticas da empresa.'></ItemCarrossel>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='vice-presidente' texto='Descrição do cargo'/>
+                    <ItemCarrossel cargo='vice-presidente' texto='Descrição do cargo' img={VicePresidente}/>
                 </Carousel.Item>
                 <Carousel.Item>
                     <ItemCarrossel cargo='Tesoureira' texto='' img={Tesoureira}/>
