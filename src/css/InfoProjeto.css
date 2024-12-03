@@ -1,0 +1,23 @@
+.infoprojeto{
+    width: 90%;
+    margin: 10px auto;
+    text-align: justify;
+
+}
+
+.informacao{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    font-size: 1.3rem;
+
+
+    & img{
+        width: 200px;
+        height: 200px;
+    }
+}

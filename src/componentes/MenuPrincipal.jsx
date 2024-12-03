@@ -14,7 +14,7 @@ export default function MenuPrincipal() {
                     <Link to="/">Parceiros</Link>
                     <Link to="/">Contato</Link>
                 </div>
-                <button className='bntDoe'>DOE</button>
+                <Link to='/incentive' className='bntDoe'>DOE</Link>
             </nav>   
         </>
     )

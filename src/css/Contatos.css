@@ -1,0 +1,39 @@
+.contato{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #103C8F;
+    color: #fff;
+}
+
+.contato__titulo{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: center;
+
+    & h1{
+        font-size: 3rem;
+    }
+}
+
+.contato__info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    text-align: center;
+
+    & div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        & p{
+            font-size: 1.2rem;
+        }
+    }
+}

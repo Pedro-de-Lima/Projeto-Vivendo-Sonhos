@@ -28,6 +28,9 @@ a{
     font-family:"Public Sans", sans-serif;
     border: none;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bntDoe:hover{

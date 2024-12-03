@@ -8,6 +8,7 @@ import ArteDeCozinhar from './pages/ArteDeCozinhar.jsx'
 import QiDosSonhos from './pages/QiDosSonhos.jsx'
 import Futebol from './pages/Futebol.jsx'
 import Projeto from './componentes/Projeto.jsx'
+import Incentive from './pages/Incentive.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/futebol',
     element: <Futebol />
+  },
+  {
+    path: '/incentive',
+    element: <Incentive />,
   }
 ])
 

@@ -1,13 +1,13 @@
 import '../css/LinkProjeto.css'
 import { Link } from 'react-router-dom'
 
-export default function LinkProjeto({link}){
+export default function LinkProjeto({link, logo}){
     return (
         <>
         <div className="link-projeto">
-            <img src="https://dummyimage.com/300x300/000/fff" alt="LogoOficina" />
+            <img className='logo-projeto' src={logo} alt="LogoOficina" />
             <div className="button">
-                <Link to={link}>CONHEÇA</Link>
+                <Link className='botao-conheca' to={link}>CONHEÇA</Link>
             </div>
         </div>
         </>
