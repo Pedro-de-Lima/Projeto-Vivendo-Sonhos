@@ -2,7 +2,7 @@ import '../css/Contatos.css'
 
 export default function Contatos(){
     return (
-        <div className='contato'>
+        <div id='contatos' className='contato'>
             <div className='contato__titulo'>
                 <h1>Fale com o Instituto Vivendo Sonhos</h1>
                 <div className='contato__info'>

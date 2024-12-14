@@ -1,0 +1,20 @@
+.incentive{
+    width: 100%;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.incentive__container{
+    background-color: blue;
+    width: 750px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    color: #fff;
+}
