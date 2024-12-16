@@ -24,13 +24,13 @@ export default function Carrossel() {
                     <ItemCarrossel cargo='Coordenador' texto='' img={Coodernador}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='Secretaria' texto='' img={Secretaria}/>
+                    <ItemCarrossel cargo='Secretária' texto='' img={Secretaria}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='Conselho' texto='' img={Conselho}/>
+                    <ItemCarrossel cargo='Conselheira' texto='' img={Conselho}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='Conselho' texto='' img={Conselho2}/>
+                    <ItemCarrossel cargo='Conselheira' texto='' img={Conselho2}/>
                 </Carousel.Item>
             </Carousel>
         </>
