@@ -15,10 +15,7 @@ export default function Carrossel() {
         <>
             <Carousel id='carrossel'>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='Presidente' texto='O presidente de uma organização atua como o principal executivo responsável pelo planejamento estratégico de negócios e pela visão da empresa. Ao liderar a organização, o presidente responsabiliza todas as operações comerciais perante as partes interessadas e as políticas da empresa.'></ItemCarrossel>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <ItemCarrossel cargo='vice-presidente' texto='Descrição do cargo' img={VicePresidente}/>
+                    <ItemCarrossel cargo='vice-presidente' texto='' img={VicePresidente}/>
                 </Carousel.Item>
                 <Carousel.Item>
                     <ItemCarrossel cargo='Tesoureira' texto='' img={Tesoureira}/>
@@ -30,16 +27,10 @@ export default function Carrossel() {
                     <ItemCarrossel cargo='Secretaria' texto='' img={Secretaria}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ItemCarrossel cargo='Suplente' texto=''/>
-                </Carousel.Item>
-                <Carousel.Item>
                     <ItemCarrossel cargo='Conselho' texto='' img={Conselho}/>
                 </Carousel.Item>
                 <Carousel.Item>
                     <ItemCarrossel cargo='Conselho' texto='' img={Conselho2}/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <ItemCarrossel cargo='Conselho' texto=''/>
                 </Carousel.Item>
             </Carousel>
         </>

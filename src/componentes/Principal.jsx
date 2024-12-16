@@ -11,7 +11,7 @@ export default function Principal() {
                     <h1>Bem - vindo ao</h1>
                     <h2>INSTITUTO <br></br>VIVENDO<br></br>SONHOS</h2>
                     <p>Instituto Vivendo Sonhos: Oferecendo oportunidades para transformar vidas.</p>
-                    <a href='https://api.whatsapp.com/send?phone=551922149168'><img src={iconWhatsapp} alt="whatsapp" /></a>
+                    <a href='https://wa.me/551922149168'><img src={iconWhatsapp} alt="whatsapp" /></a>
                 </div>
                 <div className='conent'>
                     <div className='detalhe'></div>
